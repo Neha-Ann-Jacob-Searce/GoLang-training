@@ -1,4 +1,4 @@
-# GoLang-training
+# GoLang Training
 
 - Udemy Course #1: _Go: A complete developer's guide_
   - Cards Example (deals with automation of processes in card games like creating a new deck, shuffling, splitting etc)
