@@ -8,3 +8,4 @@
 - Golang Documentation
 - Assignment
 
+<a href="https://docs.google.com/document/d/1CAH8uy-RgNH--oDsyw8C-x1TeOK2XjJbcHHYi8MRtG8/edit?usp=sharing"> Topics list link</a>
