@@ -5,6 +5,8 @@
   - Udemy Assignment 1: To display whether the numbers 0-10 are odd/even (File: udemy1_assignment1.go)
   - Structs application (Folder: Structs)
 - Udemy Course #2:<br>_Learn how to code: Google's Go (golang) programming language_
+  - Practice Exercises (Udemy course 2 Exercises)
+    - Ninja Level 1 Exercise 1-5: Variables and type
 - Golang Documentation
 - Assignment
 
