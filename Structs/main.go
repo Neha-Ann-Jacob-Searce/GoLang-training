@@ -30,5 +30,44 @@ func main() {
 			zipCode: 123456,
 		},
 	}
-	fmt.Printf("%+v", jim)
+	//fmt.Printf("%+v", jim)
+	jim.print()
+	//fmt.Println()
+	jim.updateFirstName("Pam")
+	jim.print()
+	//fmt.Println()
+
+	// jimPointer := &jim
+	// jimPointer.updateName("Pam")
+	// jim.print()
+
+	jim.updateName("Pam") // pointer shortcut
+	jim.print()
+
+	mySlice := []string{"Hi", "There", "How", "Are", "You"}
+	fmt.Println("Slice updating: doesnt require pointers")
+	fmt.Println(mySlice)
+	updateSlice(mySlice)
+	fmt.Println(mySlice)
+
+}
+
+func (p person) print() {
+	fmt.Printf("%+v\n", p)
+	fmt.Println()
+}
+
+func (p person) updateFirstName(newFirstName string) {
+	p.firstName = newFirstName
+	fmt.Print("Pass by Value: ")
+	p.print()
+}
+
+func (pointerToPerson *person) updateName(NewFirstName string) {
+	(*pointerToPerson).firstName = NewFirstName
+	fmt.Print("Pass by reference: ")
+}
+
+func updateSlice(s []string) {
+	s[0] = "Bye"
 }
